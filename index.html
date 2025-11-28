@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Gender-Based Violence & Rights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e8ff; /* faint purple */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #6a4c9c;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #4a2f75;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+        button {
+            background-color: #6a4c9c;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #563a7a;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>History of Gender-Based Violence & Human Rights</h1>
+</header>
+
+<section>
+    <h2>History of Gender-Based Violence (GBV)</h2>
+    <p>
+        Gender-Based Violence (GBV) has existed for thousands of years and is rooted in unequal power relations 
+        between genders. Historically, many societies placed women and girls in subordinate positions, limiting 
+        their access to education, property, and decision-making. These inequalities created conditions where 
+        violence—physical, emotional, sexual, or economic—became normalized.
+    </p>
+    <p>
+        Throughout the 19th and 20th centuries, awareness grew, especially as women fought for voting rights, 
+        property rights, and equal representation. The modern fight against GBV gained momentum in the 1990s when 
+        international bodies like the United Nations officially recognized violence against women as a violation 
+        of human rights.
+    </p>
+
+    <h2>Rights Related to Protection from GBV</h2>
+    <p><strong>🌍 Universal Human Rights</strong></p>
+    <ul>
+        <li>The right to life, dignity, and physical integrity</li>
+        <li>The right to be free from torture and all forms of violence</li>
+        <li>The right to equality and non-discrimination</li>
+        <li>The right to access justice and legal protection</li>
+    </ul>
+
+    <p><strong>👩🏽‍⚖️ Rights in Cases of GBV</strong></p>
+    <ul>
+        <li>The right to report violence and receive protection from authorities</li>
+        <li>The right to medical care, counselling, and psychological support</li>
+        <li>The right to shelter and emergency assistance</li>
+        <li>The right to confidentiality and privacy during investigations</li>
+        <li>The right to participate in legal proceedings without intimidation</li>
+    </ul>
+
+    <p><strong>📚 Global Frameworks That Protect Against GBV</strong></p>
+    <ul>
+        <li>UN Declaration on the Elimination of Violence Against Women (1993)</li>
+        <li>Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW)</li>
+        <li>Sustainable Development Goal 5 – Gender Equality</li>
+    </ul>
+
+    <h2>Share Your View</h2>
+    <p>Please fill out the form below. Your response will be sent securely.</p>
+
+    <!-- FORM START -->
+    <form action="https://formspree.io/f/mdkrpbqd" method="POST" onsubmit="showThanks()">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Do you support GBV?</label>
+        <select name="support_gbv" required>
+            <option value="">-- Select an option --</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <button type="submit">Submit Response</button>
+    </form>
+    <!-- FORM END -->
+
+</section>
+
+<script>
+    function showThanks() {
+        alert("Thank you for your time!");
+    }
+</script>
+
+</body>
+</html>
